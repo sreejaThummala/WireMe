@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="259dip"
+    android:layout_height="429dip"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/imgBackFolder"
+        android:layout_width="57dip"
+        android:layout_height="36dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="4dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:text="Files"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/tvPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="20dip"
+        android:layout_toLeftOf="@id/imgBackFolder"
+        android:ellipsize="start"
+        android:gravity="left"
+        android:singleLine="true"
+        android:textColor="#009bfe"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/lineBetween"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/imgBackFolder"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+        android:background="#009bfe" />
+
+    <GridView
+        android:id="@+id/gvFileChooser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lineBetween"
+        android:layout_marginTop="1dip"
+        android:clickable="true"
+        android:columnWidth="90dp"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+    <TextView
+        android:id="@+id/tvEmptyHint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="time"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" >
+    </TextView>
+
+</RelativeLayout>

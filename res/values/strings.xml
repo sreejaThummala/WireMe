@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">WireMe</string>
+    <string name="search_lan">Search LAN</string>
+    <string name="toggle_debug_logging">Toggle debug logging</string>
+    <string name="searching_lan">Searching LAN for UPnP devices...</string>
+    <string name="enabling_debug_logging">Enabling debug logging...</string>
+    <string name="disabling_debug_logging">Disabling debug logging...</string>
+    <string name="registering_demo_device">Registering UPnP device...</string>
+    <string name="create_demo_failed">Creating of device failed, check the log!</string>
+    <string name="title_activity_chooser">ChooserActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_device_chooser">DeviceChooserActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_file_chooser">FileChooser</string>
+    <string name="title_activity_file_picker">FilePicker</string>
+    <string name="add_files">Add Files</string>
+    <string name="stream_files">Stream Files</string>
+    <string name="notfication_uploader_finished">Upload finished</string>
+    <string name="notification_uploader_error">Error in upload</string>
+    <string name="error">Error</string>
+    <string name="notification_upload_content">upload</string>
+    <string name="title_activity_device_choser">DeviceChoserActivity</string>
+    <string name="notification_unsupported">Unsupported</string>
+    <string name="samba_upload">upload</string>
+
+</resources>
